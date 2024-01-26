@@ -20,8 +20,8 @@ const Slide = ({slides}:slidex) => {
     <div className=' flex  mt-4 flex-wrap gap-10'>
 
         {slides.map((s)=>(
-        <Link href={`/AllProducts/${s.id}`}>
-          <div key={s.id} className='flex flex-col text-left w-[250px] h-[360px] mb-11 cursor-pointer'>
+        <Link key={s.id}  href={`/AllProducts/${s.id}`}>
+          <div className='flex flex-col text-left w-[250px] h-[360px] mb-11 cursor-pointer'>
             <div>
             <Image src={s.img} alt='img' width={250} height={270} ></Image>
             </div>
