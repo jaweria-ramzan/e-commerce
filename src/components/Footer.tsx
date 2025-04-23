@@ -49,7 +49,7 @@ const Footer = () => {
                 Design by. <span className='font-bold text-black'> Weird Design Studio</span>
             </div>
             <div className='text-gray-500'>
-                Code by. <span className='font-bold text-black'> shabrina12 on github</span>
+                Code by. <span className='font-bold text-black'> jaweria_ramzan on github</span>
             </div >
       </div>
     </div>
